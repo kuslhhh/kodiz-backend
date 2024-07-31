@@ -1,7 +1,6 @@
-INSERT INTO product (name, description, brand, price, category, release_date, product_available, stock_quantity) 
-VALUES 
-('Tata Nexon', 'A compact SUV with excellent safety features and performance.', 'Tata Motors', 750000.00, 'Cars', '2024-01-15', true, 50),
-('Maruti Suzuki Swift', 'A popular hatchback known for its fuel efficiency and reliability.', 'Maruti Suzuki', 550000.00, 'Cars', '2024-02-01', true, 100),
-('Hyundai Creta', 'A stylish SUV with advanced features and comfortable interior.', 'Hyundai', 950000.00, 'Cars', '2024-03-01', true, 75),
-('Mahindra Thar', 'A rugged off-road SUV with a powerful engine and modern amenities.', 'Mahindra', 1200000.00, 'Cars', '2024-04-01', true, 30),
-('Honda City', 'A premium sedan with a sleek design and advanced safety features.', 'Honda', 1100000.00, 'Cars', '2024-05-01', true, 60);
+INSERT INTO product (name, description, brand, price, category, release_date, product_available, stock_quantity) VALUES
+('Toyota Camry', 'Mid-size sedan with excellent fuel efficiency', 'Toyota', 24000.00, 'Sedan', '2023-01-01', true, 15),
+('Ford F-150', 'Best-selling full-size pickup truck', 'Ford', 30000.00, 'Truck', '2023-02-01', true, 20),
+('Honda Civic', 'Compact car with great reliability and fuel economy', 'Honda', 22000.00, 'Compact', '2023-03-01', true, 25),
+('Chevrolet Tahoe', 'Full-size SUV with ample cargo space', 'Chevrolet', 50000.00, 'SUV', '2023-04-01', true, 10),
+('Tesla Model S', 'Luxury electric sedan with autopilot', 'Tesla', 80000.00, 'Electric', '2023-05-01', true, 5);
